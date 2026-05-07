@@ -42,6 +42,7 @@ const checkType  = (input:stringOrNumber):string =>{
     else if (typeof input === 'number'){
         return 'Number'
     }
+    
     return 'Unknown Type'
 }
 
